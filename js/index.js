@@ -31,21 +31,18 @@ document.addEventListener('keydown', (item) =>{
 
 let img1 = document.querySelector('img')
 img1.addEventListener('mouseenter', event => {
-    img1.src = "https://github.com/huisingaS/DOM-II/blob/main/img/vwbus.jpg?raw=true"
+    img1.src = "https://di-uploads-pod13.dealerinspire.com/stohlmanvolkswagen/uploads/2019/07/VWbus.jpg"
 })
 
 img1.addEventListener('mouseleave', event => {
-    img1.src = "https://github.com/huisingaS//DOM-II/blob/main/img/fun-bus.jpg?raw=true"
+    img1.src = "https://kleinmanenergy.upenn.edu/sites/default/files/styles/new_hero/public/policythumbs/747takeoff.png?itok=ntyL_dnV"
 })
 
-img.addEventListener('drag', event => {
-    img.src = "https://github.com/huisingaS//DOM-II/blob/main/img/plane.png?raw=true"
-})
 
 let img2 = document.querySelector('.img-content')
 img2.addEventListener('mouseenter', event => {
-    img2.style.transform = "scale(1.2)"
-    img2.style.transition = "all 0.3s"
+    img2.style.transform = "scale(2)"
+    img2.style.transition = "all 1s"
   })
 
   img2.addEventListener('mouseleave', event => {
